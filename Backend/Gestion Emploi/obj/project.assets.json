@@ -10347,11 +10347,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\addinn\\Desktop\\SchoolManagment\\Backend\\Gestion Emploi\\Gestion Emploi.csproj",
+      "projectUniqueName": "C:\\Users\\addinn\\Desktop\\SchoolManagement\\Backend\\Gestion Emploi\\Gestion Emploi.csproj",
       "projectName": "Gestion Emploi",
-      "projectPath": "C:\\Users\\addinn\\Desktop\\SchoolManagment\\Backend\\Gestion Emploi\\Gestion Emploi.csproj",
+      "projectPath": "C:\\Users\\addinn\\Desktop\\SchoolManagement\\Backend\\Gestion Emploi\\Gestion Emploi.csproj",
       "packagesPath": "C:\\Users\\addinn\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\addinn\\Desktop\\SchoolManagment\\Backend\\Gestion Emploi\\obj\\",
+      "outputPath": "C:\\Users\\addinn\\Desktop\\SchoolManagement\\Backend\\Gestion Emploi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

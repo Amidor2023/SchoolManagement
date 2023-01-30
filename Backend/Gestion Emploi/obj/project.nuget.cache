@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9kdmcCRfBAQmah9MWY636Gx6Yjm8V0l4kwwhmTqgcb9jAxV0zT9usySK9Sw+rAsiG5PgSVBDkfCz5r9maWzmvQ==",
+  "dgSpecHash": "bRG2sEpBKu3DeyJHOAxmIlhUQwa3vHCh9Ah288O1EZAEG3W6x0hQnUbWVjgWMwnXNjbItjvBNbamXxRzBAEFfw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\addinn\\Desktop\\SchoolManagment\\Backend\\Gestion Emploi\\Gestion Emploi.csproj",
+  "projectFilePath": "C:\\Users\\addinn\\Desktop\\SchoolManagement\\Backend\\Gestion Emploi\\Gestion Emploi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\addinn\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\addinn\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",

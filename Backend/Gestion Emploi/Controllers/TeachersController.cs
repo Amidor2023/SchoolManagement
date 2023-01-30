@@ -17,7 +17,7 @@ namespace Gestion_Emploi.Controllers
         [HttpGet]
         public async Task<IActionResult> Get()
         {
-            List<Teacher> teachers =  await _context.Teacher.ToListAsync();
+            List<Teacher> teachers = await _context.Teacher.ToListAsync();
 
             List<TeacherOutput> teacherOutputs = new();
 
@@ -95,7 +95,7 @@ namespace Gestion_Emploi.Controllers
         [HttpPost]
         public async Task<ActionResult<Teacher>> Post(TeacherInput teacherInput)
         {
-            Random rnd = new ();
+            Random rnd = new();
 
             int randomInt = rnd.Next(1000, 10000);
 
@@ -108,7 +108,7 @@ namespace Gestion_Emploi.Controllers
                 Reference = "TE" + randomInt.ToString(),
                 CreatedAt = DateTime.Now,
                 Experience = teacherInput.Experience,
-                
+
             };
 
             _context.Teacher.Add(teacher);
@@ -132,7 +132,7 @@ namespace Gestion_Emploi.Controllers
             else
             {
                 _context.Teacher.Remove(teacher);
-                
+
                 await _context.SaveChangesAsync();
 
                 return NoContent();
