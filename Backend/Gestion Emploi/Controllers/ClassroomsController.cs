@@ -17,9 +17,9 @@ namespace Gestion_Emploi.Controllers
         [HttpGet]
         public async Task<IActionResult> Get()
         {
-            List<Classroom> classrooms =  await _context.Classroom.ToListAsync();
+            List<Classroom> classrooms = await _context.Classroom.ToListAsync();
 
-            List<ClassroomOutput> classroomOutputDtos = new ();
+            List<ClassroomOutput> classroomOutputDtos = new();
 
             foreach (Classroom classroom in classrooms)
             {
@@ -64,8 +64,8 @@ namespace Gestion_Emploi.Controllers
         {
             Classroom? classroom = await _context.Classroom
                 .SingleOrDefaultAsync(c => c.Id == id);
-            
-            if(classroom == null)
+
+            if (classroom == null)
             {
                 return NotFound();
             }
@@ -78,9 +78,9 @@ namespace Gestion_Emploi.Controllers
                 classroom.Number = classroomInput.Number;
 
                 _context.Entry(classroom).State = EntityState.Modified;
-                
+
                 await _context.SaveChangesAsync();
-                
+
                 return Ok("Updated");
             }
         }
